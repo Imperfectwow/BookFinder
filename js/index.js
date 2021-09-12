@@ -59,7 +59,7 @@ $(document).ready(function () {
       item2 = response.items[i + 1];
       title2 = item2.volumeInfo.title;
 
-      description2 = item.volumeInfo.description;
+      description2 = item2.volumeInfo.description;
       console.log(description2);
       author2 = item2.volumeInfo.authors;
       publisher2 = item2.volumeInfo.publisher;
