@@ -55,7 +55,6 @@ $(document).ready(function () {
       item2 = response.items[i + 1];
       title2 = item2.volumeInfo.title;
       description2 = item2.volumeInfo.description;
-      console.log(description2);
       bookIsbn2 = item2.volumeInfo.industryIdentifiers[0].identifier;
       bookImg2 = item2.volumeInfo.imageLinks
         ? item2.volumeInfo.imageLinks.thumbnail
